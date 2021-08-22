@@ -8,6 +8,8 @@ W = '\033[0m'  # white
 
 from shutil import which
 
+
+print(G + "[+]" + C + "Autor:  Mohammad Zim")
 print(G + '[+]' + C + ' Checking Dependencies...' + W)
 pkgs = ['python3', 'pip3', 'php', 'ssh']
 inst = True
